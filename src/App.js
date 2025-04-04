@@ -30,7 +30,7 @@ function App() {
       <input
         value={input}
         onChange={(e) => setInput(e.target.value)}
-        placeholder="Add a task"
+        placeholder="Add a task HERE!"
       />
       <button onClick={addTask}>Add</button>
 
